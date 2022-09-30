@@ -257,4 +257,10 @@ public class DropDownMenu extends LinearLayout {
         DisplayMetrics dm = getResources().getDisplayMetrics();
         return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, value, dm) + 0.5);
     }
+
+
+
+    public LinearLayout getTabMenuView() {
+        return tabMenuView;
+    }
 }
