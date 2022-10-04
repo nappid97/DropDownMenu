@@ -169,7 +169,7 @@ public class DropDownMenu extends LinearLayout {
         //添加分割线
         if (i < tabTexts.size() - 1) {
             View view = new View(getContext());
-            view.setLayoutParams(new LayoutParams(dpTpPx(1f), ViewGroup.LayoutParams.MATCH_PARENT));
+            view.setLayoutParams(new LayoutParams(dpTpPx(12), ViewGroup.LayoutParams.MATCH_PARENT));
             view.setBackgroundColor(dividerColor);
             tabMenuView.addView(view);
         }
